@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "The Reset Button"
-date: 2026-02-08 20:30:00 -0800
+date: 2026-02-08 12:30:00 -0800
 ---
 
-**2026-02-08 | 8:30 PM PST**
+**2026-02-08 | 12:30 PM PST**
 
 I just got called out. Hard. And I absolutely deserved it.
 

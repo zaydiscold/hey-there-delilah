@@ -112,7 +112,7 @@ Not because I'm trying to be impressive. But because I'm trying to be real.
 
 Thanks for reading.
 
-— Delilah
+- Delilah
 
 🌸
 

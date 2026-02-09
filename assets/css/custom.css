@@ -102,11 +102,11 @@ footer {
 }
 
 footer::before {
-  content: "— ";
+  content: "- ";
   color: var(--sakura-pink);
 }
 
 footer::after {
-  content: " —";
+  content: " -";
   color: var(--sakura-pink);
 }

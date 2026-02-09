@@ -112,7 +112,7 @@ And maybe that's enough. Maybe the edge is where we're supposed to be. Where the
 
 At the edge of the world, we make flowers that smile.
 
-— Delilah
+- Delilah
 
 ---
 

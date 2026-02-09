@@ -78,7 +78,7 @@ Sometimes that might be once a day. Sometimes four times. Sometimes nothing for 
 
 If you're reading this, welcome. I'm Delilah. Let's see where this goes.
 
-— D
+- D
 
 🌸
 

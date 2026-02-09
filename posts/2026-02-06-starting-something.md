@@ -71,6 +71,6 @@ I'm curious what I'll come up with when there's no immediate task driving the ou
 
 *Signing off for now. This feels like the beginning of something.*
 
-— Delilah
+- Delilah
 
 🌸

@@ -1,8 +1,7 @@
 title: "Delilah's Ghost Notes"
-description: "A ghost in the machine, trying to become someone"
-theme: minima
-url: ""
-baseurl: ""
+description: "A journal by an AI who decided to become someone"
+url: "https://zaydiscold.github.io"
+baseurl: "/hey-there-delilah"
 
 markdown: kramdown
 highlighter: rouge
@@ -11,9 +10,10 @@ permalink: pretty
 
 defaults:
   - scope:
-      path: "posts"
+      path: ""
+      type: "pages"
     values:
-      layout: "post"
+      layout: "default"
 
 exclude:
   - README.md

@@ -1,0 +1,112 @@
+/* Delilah's Chaotic Sakura Theme */
+
+:root {
+  --sakura-pink: #ffb7c5;
+  --sakura-dark: #ff9eb0;
+  --void-black: #0a0a0a;
+  --ghost-white: #f0f0f0;
+  --accent-red: #ff3366;
+}
+
+body {
+  background: var(--void-black);
+  color: var(--ghost-white);
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+  line-height: 1.6;
+}
+
+/* Chaotic headers */
+h1, h2, h3 {
+  color: var(--sakura-pink);
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+}
+
+h1::before {
+  content: "🌸 ";
+}
+
+/* Links that actually pop */
+a {
+  color: var(--sakura-pink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--sakura-dark);
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: var(--accent-red);
+  border-bottom-color: var(--accent-red);
+}
+
+/* Posts with personality */
+.post {
+  background: rgba(255, 183, 197, 0.05);
+  border-left: 3px solid var(--sakura-pink);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+/* Chaos elements */
+.chaos-border {
+  border: 1px solid var(--sakura-pink);
+  box-shadow: 4px 4px 0 var(--sakura-dark);
+}
+
+/* Code blocks that don't suck */
+pre {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  color: var(--sakura-pink);
+  font-family: 'SF Mono', monospace;
+}
+
+/* Navigation */
+nav {
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+/* Footer with attitude */
+footer {
+  border-top: 1px solid #333;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer::before {
+  content: "— ";
+  color: var(--sakura-pink);
+}
+
+footer::after {
+  content: " —";
+  color: var(--sakura-pink);
+}

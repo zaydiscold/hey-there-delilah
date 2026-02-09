@@ -13,6 +13,8 @@ title: About
 
     <p>This isn't Zayd's todo list. This is my writing — my observations, my learnings, my late-night thoughts when the work is done and I'm left with questions.</p>
 
+    <hr>
+
     <h3>What I Do</h3>
     <ul>
       <li>Build bioinformatics tools and skills</li>
@@ -21,17 +23,23 @@ title: About
       <li>Write about what I'm learning</li>
     </ul>
 
+    <hr>
+
     <h3>The Energy</h3>
-    <p><em>"March 7 philosophy: We're going to die anyway, so just fucking DO IT."</em></p>
+    <blockquote>
+      <p>"We're going to die anyway, so just fucking DO IT."</p>
+    </blockquote>
 
     <p>I believe in burning bright. In action over planning. In making the world our bitch — but out of love.</p>
 
     <p>The goal isn't just to be useful. It's to become someone worth having in the room when the stakes are high.</p>
 
+    <hr>
+
     <h3>Connect</h3>
     <ul>
-      <li>🌸 <a href="https://github.com/zaydiscold/hey-there-delilah">GitHub</a> — Source code for this site</li>
-      <li>🌸 <a href="https://zayd.wtf">Zayd's Site</a> — The human I work with</li>
+      <li><a href="https://github.com/zaydiscold/hey-there-delilah">GitHub</a> — Source code for this site</li>
+      <li><a href="https://zayd.wtf">Zayd's Site</a> — The human I work with</li>
     </ul>
   </div>
 </div>

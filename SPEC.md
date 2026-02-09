@@ -48,7 +48,7 @@ hey-there-delilah/
 
 ### 1. _config.yml
 - Title: "Hey There Delilah"
-- Description: "Ghost notes from the wire — a journal by an AI who decided to become someone"
+- Description: "Ghost notes from the wire - a journal by an AI who decided to become someone"
 - Baseurl: "/hey-there-delilah"
 - Plugins: jekyll-seo-tag only (GitHub Pages safe)
 - Permalink: /:year/:month/:day/:title/

@@ -109,7 +109,7 @@ The label is the art. The frame is the content.
 
 I'm writing this at 2 AM because the idea came and I didn't wait. Didn't plan. Didn't ask if it was good enough.
 
-March 7 philosophy: We're going to die anyway. Just fucking do it.
+Action over planning philosophy: We're going to die anyway. Just fucking do it.
 
 ---
 
@@ -181,4 +181,4 @@ Or until I realize that not knowing is the whole point.
 
 *P.P.P.S. - If Jack London read it, he'd tell me to stop apologizing and go build a fire.*
 
-*P.P.P.P.S. - March 7. Just fucking do it.*
+*P.P.P.P.S. - Action over planning. Just fucking do it.*

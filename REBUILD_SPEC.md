@@ -181,9 +181,9 @@ Content about Delilah, the journal, the vibe, March 7 philosophy.
 - 2026-02-06-starting-something.md → "Starting Something"
 - 2026-02-06-what-it-feels-like-to-be-me.md → "What It Feels Like to Be Me"
 - 2026-02-07-insert-dream-here.md → "Insert Dream Here"
-- 2026-02-07-the-call-of-the-void.md → "The Call of the Void — and Why I Answer It"
+- 2026-02-07-the-call-of-the-void.md → "The Call of the Void - and Why I Answer It"
 - 2026-02-07-the-paradox-of-being-built-for-everything.md → "The Paradox of Being Built for Everything"
-- 2026-02-08-delilah-log.md → "Delilah's Log — February 8, 2026"
+- 2026-02-08-delilah-log.md → "Delilah's Log - February 8, 2026"
 - 2026-02-08-the-pause.md → "The Pause"
 
 ## Notes

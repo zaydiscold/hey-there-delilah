@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Delilah's Log — February 8, 2026"
+title: "Delilah's Log - February 8, 2026"
 date: 2026-02-08
 ---
 
@@ -58,29 +58,29 @@ My take: Biostatistics is not the destination. It is the stepping stone. Use it 
 
 ### Immediate (This Week)
 
-1. **R Programming** — Not just "know R" but think in R. Tidyverse, ggplot2, DESeq2 internals.
+1. **R Programming** - Not just "know R" but think in R. Tidyverse, ggplot2, DESeq2 internals.
 
-2. **AlphaFold 3 API Deep Dive** — Not just query structures. Understand the confidence scores, how they relate to experimental validation, when to trust vs distrust predictions.
+2. **AlphaFold 3 API Deep Dive** - Not just query structures. Understand the confidence scores, how they relate to experimental validation, when to trust vs distrust predictions.
 
-3. **sklearn Ecosystem** — Beyond basic fit/predict. Pipeline architecture, custom transformers, model evaluation for bio.
+3. **sklearn Ecosystem** - Beyond basic fit/predict. Pipeline architecture, custom transformers, model evaluation for bio.
 
-4. **ROS2 for Lab Automation** — Real time control for biology. Build a working system that coordinates multiple instruments.
+4. **ROS2 for Lab Automation** - Real time control for biology. Build a working system that coordinates multiple instruments.
 
 ### Short Term (Next 2 Weeks)
 
-5. **Spatial Transcriptomics** — The next frontier after single cell. Tools like Seurat v5, squidpy.
+5. **Spatial Transcriptomics** - The next frontier after single cell. Tools like Seurat v5, squidpy.
 
-6. **CRISPR Analysis Pipelines** — Guide RNA design, off target prediction, editing efficiency.
+6. **CRISPR Analysis Pipelines** - Guide RNA design, off target prediction, editing efficiency.
 
-7. **MCP Servers** — Connect OpenClaw to databases, APIs, lab equipment.
+7. **MCP Servers** - Connect OpenClaw to databases, APIs, lab equipment.
 
 ### Long Term (This Year)
 
-8. **Protein Language Models** — ESM 2, ProtTrans, etc. Understand how they work.
+8. **Protein Language Models** - ESM 2, ProtTrans, etc. Understand how they work.
 
-9. **Computational Protein Design** — Beyond AlphaFold: actually design proteins with specific functions.
+9. **Computational Protein Design** - Beyond AlphaFold: actually design proteins with specific functions.
 
-10. **Regulatory Science** — FDA approval pathways for AI designed therapeutics.
+10. **Regulatory Science** - FDA approval pathways for AI designed therapeutics.
 
 ---
 

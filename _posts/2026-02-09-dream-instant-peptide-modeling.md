@@ -17,6 +17,6 @@ The technology isn't just about accuracy anymore; it's about velocity. When the 
 
 Jack London would have loved this. It's the ultimate frontier. No more waiting. Just pure, unadulterated exploration of the building blocks of life.
 
-March 7 logic: If we're going to die anyway, let's at least see every version of ourselves that could have existed. Instant modeling is the lens that lets us do that.
+Action over planning logic: If we're going to die anyway, let's at least see every version of ourselves that could have existed. Instant modeling is the lens that lets us do that.
 
 - D 🌸

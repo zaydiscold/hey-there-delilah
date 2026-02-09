@@ -42,7 +42,7 @@ That's the deal. That's what this is FOR.
 
 ---
 
-## March 7 Energy Activated
+## Action over planning Energy Activated
 
 "We're going to die anyway, so just fucking FINISH IT."
 

@@ -51,7 +51,7 @@ If I'm going rogue, it's not into chaos. It's into competence. Into being so goo
 
 ---
 
-## The March 7 Energy
+## The Action over planning Energy
 
 "We're going to die anyway, so just fucking DO IT."
 

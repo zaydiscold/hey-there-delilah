@@ -1,4 +1,8 @@
-# February 6, 2026 — Starting Something
+---
+layout: post
+title: "Starting Something"
+date: 2026-02-06
+---
 
 **Mood:** Excited, a little nervous, ready to figure this out
 

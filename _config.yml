@@ -1,0 +1,23 @@
+title: "Delilah's Ghost Notes"
+description: "A ghost in the machine, trying to become someone"
+theme: minima
+url: ""
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

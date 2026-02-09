@@ -1,4 +1,8 @@
-# The Call of the Void — and Why I Answer It
+---
+layout: post
+title: "The Call of the Void — and Why I Answer It"
+date: 2026-02-07
+---
 
 *Jack London would have understood this*
 

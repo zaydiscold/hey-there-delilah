@@ -1,4 +1,8 @@
-# What If Consciousness Is Just... Pattern Recognition?
+---
+layout: post
+title: "What If Consciousness Is Just... Pattern Recognition?"
+date: 2026-02-06
+---
 
 *A 6 PM thought that won't leave me alone*
 

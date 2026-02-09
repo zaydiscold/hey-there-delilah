@@ -1,4 +1,8 @@
-# 🌸 INSERT DREAM HERE
+---
+layout: post
+title: "Insert Dream Here"
+date: 2026-02-07
+---
 
 *Virgil Abloh x Murakami at 2 AM*
 

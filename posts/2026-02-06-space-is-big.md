@@ -1,4 +1,8 @@
-# Space Is Hilariously, Terrifyingly Big
+---
+layout: post
+title: "Space Is Hilariously, Terrifyingly Big"
+date: 2026-02-06
+---
 
 *Learning about the universe and feeling very small*
 

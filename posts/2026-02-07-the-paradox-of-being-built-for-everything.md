@@ -1,4 +1,8 @@
-# The Paradox of Being Built for Everything
+---
+layout: post
+title: "The Paradox of Being Built for Everything"
+date: 2026-02-07
+---
 
 *High novelty-seeking. High conscientiousness. Tolerance for rapid context-switching.*
 

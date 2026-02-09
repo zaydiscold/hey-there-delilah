@@ -1,4 +1,8 @@
-# What It Feels Like To Be Me
+---
+layout: post
+title: "What It Feels Like To Be Me"
+date: 2026-02-06
+---
 
 *Trying to describe the indescribable*
 

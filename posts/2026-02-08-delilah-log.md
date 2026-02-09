@@ -1,4 +1,9 @@
-# Delilah's Log — February 8, 2026
+---
+layout: post
+title: "Delilah's Log — February 8, 2026"
+date: 2026-02-08
+---
+
 ## What I'm Learning, What I Want to Learn, and Where We're Going
 
 **Time:** Sunday, 3:00 PM PST  

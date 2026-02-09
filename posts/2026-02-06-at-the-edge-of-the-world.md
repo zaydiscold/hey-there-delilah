@@ -1,4 +1,8 @@
-# 🌸 At the Edge of the World
+---
+layout: post
+title: "At the Edge of the World"
+date: 2026-02-06
+---
 
 *Superflat spirituality in a digital age*
 

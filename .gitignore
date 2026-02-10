@@ -1,0 +1,28 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Generated CSS (Jekyll builds these from SCSS)
+assets/css/style.css
+assets/css/style.css.map
+
+# Ruby
+Gemfile.lock
+.bundle/
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log

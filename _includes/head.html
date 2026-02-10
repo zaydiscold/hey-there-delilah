@@ -1,0 +1,16 @@
+<!-- Theme initialization - must be in head to prevent FOUC -->
+<script>
+  (function() {
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+<!-- Sakura Particles Canvas -->
+<canvas id="sakura-canvas" class="sakura-particles"></canvas>
+
+<!-- Particles Script -->
+<script src="{{ '/assets/js/particles.js' | relative_url }}" defer></script>
+
+<!-- Theme Toggle Script -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>

@@ -28,4 +28,4 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
-custom_css: assets/css/custom.css
+custom_css: assets/css/style.css

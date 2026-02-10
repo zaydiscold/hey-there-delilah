@@ -13,19 +13,61 @@
   let particles = [];
   let animationId = null;
   let isActive = true;
+  let isEnabled = true;
   
-  // Configuration
+  // Configuration - ELEGANT (slower, less dense)
   const config = {
-    petalCount: 40,           // Number of petals
-    minSize: 4,               // Minimum petal size
-    maxSize: 10,              // Maximum petal size
-    minSpeed: 0.3,            // Minimum fall speed
-    maxSpeed: 1.2,            // Maximum fall speed
-    swayAmplitude: 1.5,       // How much petals sway
-    swaySpeed: 0.02,          // Speed of swaying
-    colors: ['#FFB6C1', '#FFC0CB', '#FFB7C5', '#FF69B4', '#FFA6C9'], // Sakura pinks
-    rotationSpeed: 0.02,      // How fast petals spin
+    petalCount: 15,           // Reduced from 40 for elegance
+    minSize: 4,
+    maxSize: 10,
+    minSpeed: 0.2,            // Slower fall (was 0.3)
+    maxSpeed: 0.6,            // Slower fall (was 1.2)
+    swayAmplitude: 1.0,       // Gentler sway (was 1.5)
+    swaySpeed: 0.015,         // Slower sway (was 0.02)
+    colors: ['#FFB6C1', '#FFC0CB', '#FFB7C5', '#FF69B4', '#FFA6C9'],
+    rotationSpeed: 0.015,     // Slower rotation (was 0.02)
   };
+  
+  // Create toggle button
+  function createToggleButton() {
+    const button = document.createElement('button');
+    button.id = 'sakura-toggle';
+    button.innerHTML = '🌸';
+    button.style.cssText = `
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 10000;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 182, 193, 0.3);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity 0.3s, background 0.3s;
+    `;
+    
+    button.addEventListener('mouseenter', () => {
+      button.style.opacity = '1';
+      button.style.background = 'rgba(255, 255, 255, 0.2)';
+    });
+    
+    button.addEventListener('mouseleave', () => {
+      button.style.opacity = '0.6';
+      button.style.background = 'rgba(255, 255, 255, 0.1)';
+    });
+    
+    button.addEventListener('click', () => {
+      isEnabled = !isEnabled;
+      canvas.style.display = isEnabled ? 'block' : 'none';
+      button.innerHTML = isEnabled ? '🌸' : '🌸';
+      button.style.opacity = isEnabled ? '0.6' : '0.3';
+    });
+    
+    document.body.appendChild(button);
+  }
   
   // Resize canvas
   function resizeCanvas() {
@@ -37,7 +79,6 @@
   class Petal {
     constructor() {
       this.reset();
-      // Start at random Y position initially
       this.y = Math.random() * canvas.height;
     }
     
@@ -51,28 +92,19 @@
       this.rotation = Math.random() * Math.PI * 2;
       this.rotationSpeed = (Math.random() - 0.5) * config.rotationSpeed * 2;
       this.color = config.colors[Math.floor(Math.random() * config.colors.length)];
-      this.opacity = 0.6 + Math.random() * 0.4;
-      
-      // Petal shape variation (0 = oval, 1 = heart-like)
+      this.opacity = 0.5 + Math.random() * 0.3; // Slightly more transparent
       this.shape = Math.random() > 0.5 ? 'oval' : 'heart';
     }
     
     update() {
-      // Fall down
       this.y += this.speed;
-      
-      // Sway side to side
-      this.x += Math.sin(this.y * config.swaySpeed * this.swayFreq + this.swayOffset) * 0.5;
-      
-      // Rotate
+      this.x += Math.sin(this.y * config.swaySpeed * this.swayFreq + this.swayOffset) * 0.3; // Gentler sway
       this.rotation += this.rotationSpeed;
       
-      // Reset if off screen
       if (this.y > canvas.height + 20) {
         this.reset();
       }
       
-      // Wrap horizontally
       if (this.x > canvas.width + 20) this.x = -20;
       if (this.x < -20) this.x = canvas.width + 20;
     }
@@ -85,20 +117,17 @@
       ctx.fillStyle = this.color;
       
       if (this.shape === 'oval') {
-        // Draw oval petal
         ctx.beginPath();
         ctx.ellipse(0, 0, this.size / 2, this.size, 0, 0, Math.PI * 2);
         ctx.fill();
         
-        // Petal vein
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.4)';
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
         ctx.lineWidth = 0.5;
         ctx.beginPath();
         ctx.moveTo(0, -this.size * 0.7);
         ctx.lineTo(0, this.size * 0.7);
         ctx.stroke();
       } else {
-        // Draw heart-like petal shape
         ctx.beginPath();
         const s = this.size;
         ctx.moveTo(0, -s);
@@ -111,7 +140,6 @@
     }
   }
   
-  // Initialize particles
   function initParticles() {
     particles = [];
     for (let i = 0; i < config.petalCount; i++) {
@@ -119,9 +147,8 @@
     }
   }
   
-  // Animation loop
   function animate() {
-    if (!isActive) return;
+    if (!isActive || !isEnabled) return;
     
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
@@ -133,7 +160,6 @@
     animationId = requestAnimationFrame(animate);
   }
   
-  // Pause animation when tab is hidden
   function handleVisibilityChange() {
     if (document.hidden) {
       isActive = false;
@@ -146,21 +172,16 @@
     }
   }
   
-  // Initialize
   function init() {
     resizeCanvas();
     initParticles();
+    createToggleButton();
     animate();
     
-    // Event listeners
-    window.addEventListener('resize', () => {
-      resizeCanvas();
-    });
-    
+    window.addEventListener('resize', resizeCanvas);
     document.addEventListener('visibilitychange', handleVisibilityChange);
   }
   
-  // Start when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

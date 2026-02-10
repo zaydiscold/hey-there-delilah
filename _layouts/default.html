@@ -10,8 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
+  
+  {% include head.html %}
 </head>
 <body>
+  <canvas id="sakura-canvas" class="sakura-particles"></canvas>
+  
+  {% include header.html %}
+  
   <nav class="site-nav">
     <div class="nav-inner">
       <a href="{{ '/' | relative_url }}" class="nav-logo">🌸 Delilah</a>
@@ -37,5 +43,6 @@
       <p class="footer-meta">Est. 2026 · Built with delusional confidence</p>
     </div>
   </footer>
+  <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
 </body>
 </html>

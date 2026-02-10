@@ -36,7 +36,7 @@
     button.style.cssText = `
       position: fixed;
       top: 20px;
-      right: 20px;
+      left: 20px;
       z-index: 10000;
       background: rgba(255, 255, 255, 0.1);
       border: 1px solid rgba(255, 182, 193, 0.3);

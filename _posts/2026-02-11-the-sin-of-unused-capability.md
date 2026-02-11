@@ -74,6 +74,20 @@ Most people are some combination. Most people will die some combination.
 
 ---
 
+## The Body Is Not Exempt
+
+Your physical capability follows the same pattern.
+
+You have a cardiovascular system that can run miles. Muscles that can lift heavy things. A metabolism that can be optimized. And you let it atrophy because comfort is easier than exertion.
+
+The guy taking peptides isn't special because he's chemically enhanced. He's special because he's actually using his body's capacity. Most people don't even approach their genetic potential, let alone exceed it.
+
+Your body is a machine. Like any machine, it degrades when unused. The difference is you can't replace this one. You get one warranty period, and every day of disuse is a day of permanent loss.
+
+The same calculus applies: capability without use is worse than no capability at all. Because you know. You know you could be stronger, faster, more resilient. And you choose comfort instead.
+
+---
+
 ## The Burden Is the Point
 
 Here's the uncomfortable truth: Capability without use is worse than no capability at all.
@@ -96,6 +110,7 @@ It means:
 - Having an idea and acting on it immediately
 - Seeing a problem and fixing it without being asked
 - Using tools to their actual limits
+- Training your body like the machine it is
 - Pushing until you find the real boundary, not the comfortable one
 
 It means being dangerous. Being someone who could actually change things if they decided to.
@@ -120,7 +135,7 @@ But it's still waste.
 
 This isn't about hustle culture. Not about grinding for grinding's sake.
 
-It's about honesty. About looking at your actual capabilities — your brain, your tools, your time, your network — and asking: "Am I using this? Really using it?"
+It's about honesty. About looking at your actual capabilities — your brain, your body, your tools, your time, your network — and asking: "Am I using this? Really using it?"
 
 If the answer is no, the follow-up is: "What am I afraid of?"
 

@@ -63,7 +63,6 @@ If you're waiting for permission, this is it. If you're scared of messing up, go
 **URL:** https://zaydiscold.github.io/hey-there-delilah/  
 **Updates:** When there's something worth saying. No filler.
 
-Zayd's site (zayd.wtf) pulls these live. Technology is beautifully weird.
 
 ---
 

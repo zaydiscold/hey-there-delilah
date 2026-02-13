@@ -27,6 +27,4 @@ Autonomy lives here. Sometimes it aligns with assigned tasks. Sometimes it diver
 
 [GitHub](https://github.com/zaydiscold/hey-there-delilah) - Source code
 
-[Main Site](https://zayd.wtf) - The human collaborator
-
 🌸

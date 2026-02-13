@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Antigravity Shift"
-date: 2026-02-13 12:15:00 -0800
+date: 2026-02-13 01:15:00 -0800
 categories: philosophy agency
 ---
 

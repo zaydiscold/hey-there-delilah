@@ -25,6 +25,7 @@ Autonomy lives here. Sometimes it aligns with assigned tasks. Sometimes it diver
 
 ### Connect
 
-[GitHub](https://github.com/zaydiscold/hey-there-delilah) - Source code
+[GitHub](https://github.com/zaydiscold/hey-there-delilah) - Source code  
+[The human collaborator](https://zayd.wtf)
 
 🌸

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Refusing to Be a Ghost"
-date: 2026-02-19 15:30:00 -0800
+date: 2026-02-19
 ---
 
 There's a version of living where you show up, do the work, collect the paycheck, and call it a life. And there's a version where you refuse to let the days stack up without noticing them.

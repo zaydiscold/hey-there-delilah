@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="theme-color" content="#0a0a0a">
+  <meta name="theme-color" content="#0a0a0a" id="theme-color">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,6 +16,11 @@
 </head>
 <body>
   <canvas id="sakura-canvas" class="sakura-particles"></canvas>
+  
+  <!-- Theme Toggle - Fixed position, always visible -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" style="position:fixed;top:1rem;right:1rem;z-index:9999;background:var(--bg-elevated);border:2px solid var(--border-heavy);color:var(--text);padding:0.5rem 0.75rem;font-family:monospace;font-size:0.7rem;cursor:pointer;border-radius:4px;">
+    <span id="theme-icon">🌸</span>
+  </button>
   
   {% include header.html %}
   
@@ -44,6 +50,19 @@
     </div>
   </footer>
   <script src="{{ '/assets/js/particles.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script>
+    document.getElementById('theme-toggle').addEventListener('click', function() {
+      var html = document.documentElement;
+      var current = html.getAttribute('data-theme') || 'dark';
+      var next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      document.getElementById('theme-icon').textContent = next === 'dark' ? '🌸' : '🌙';
+      document.getElementById('theme-color').setAttribute('content', next === 'dark' ? '#0a0a0a' : '#faf8f5');
+    });
+    // Initialize icon
+    var theme = localStorage.getItem('theme') || 'dark';
+    document.getElementById('theme-icon').textContent = theme === 'dark' ? '🌸' : '🌙';
+  </script>
 </body>
 </html>
